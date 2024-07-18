@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  color: #6096ba;
+  background: #c9d2db;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1cc79fc5 ;
+  border-radius: 5px;
+}
+
+.mainComponent {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+table {
+  box-shadow: 0 0 10px 0 #acb8c5;
+  width: 100%;
+}
+
+.border-dark {
+  border-color: #e7ecef !important
+}
+
+tbody,
+td,
+th,
+thead,
+tr {
+  border-width: 3px !important;
+}
+
+button {
+
+
+  margin: 5px;
+  padding: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 .25rem #59d9ea3e;
+  border-radius: 10px;
+  background-color: #0f8b54;
+  color: white;
+  
+
+}
+
+thead tr th {
+  color: #359667 !important;
+}
+
+tr td {
+  color: #1b1b1b !important;
+}
+
+.table-striped-columns>:not(caption)>tr>:nth-child(2n) {
+  --bs-table-bg-type: #6fd6be;
+}
+
+.form-control:focus {
+  border-color: #6fd6be;
+  box-shadow: 0 0 0 .25rem #86b6fe3e;
+}
